@@ -1,32 +1,47 @@
-📘 Experiment–2: College Management System UI
+Experiment–3: Multi-Page College Management System using React Router
 📌 Project Title
 
-College Management System – Modern & Colorful UI Web Application
+College Management System – Multi-Page React Application
 
 🎯 Objective
 
-The objective of this experiment is to design and develop a modern, colorful, and visually appealing web page using React and a UI component library (Bootstrap).
-This project focuses on component-based UI design, proper folder structuring, and applying modern UI/UX principles such as animations, gradients, and hover effects.
+The objective of this experiment is to extend the previously developed web page (Experiment–2) by:
+
+Implementing React Router
+
+Creating multiple pages in a React application
+
+Maintaining consistent UI across pages
+
+Enhancing structure and navigation in a Single Page Application (SPA)
 
 🧩 Project Description
 
-This project is a College Management System landing page designed with a modern and innovative user interface.
-It visually represents core college operations such as:
+This project is an extension of the College Management System developed in Experiment–2.
 
-Student Management
+In this experiment:
 
-Faculty Management
+A second page named Departments was added.
 
-Course Management
+React Router was implemented for seamless navigation.
 
-The application uses animated gradient backgrounds, glassy navigation bar, colorful cards, and hover interactions to enhance user experience.
-It is built using React (Create React App) and Bootstrap for responsiveness and consistency.
+Navigation between pages happens without reloading the browser.
+
+UI consistency is maintained across all pages.
+
+The application now contains:
+
+🏠 Home Page
+
+🏫 Departments Page
 
 🛠️ Technologies Used
 
-React.js (Create React App)
+React.js (Vite Setup)
 
-Bootstrap (UI Component Library)
+React Router DOM
+
+Bootstrap
 
 React Icons
 
@@ -36,47 +51,49 @@ CSS3
 
 JavaScript (ES6)
 
-🎨 UI & Design Features
+🚀 Key Features
 
-Animated gradient hero section
+Multi-page navigation using React Router
 
-Glassmorphism-style fixed navbar
+Clean and modern responsive UI
 
-Colorful call-to-action button
+Fixed navbar across pages
 
-Hover-animated cards with icons
+Animated gradient hero sections
 
-Fully responsive design (mobile & desktop)
+Interactive department cards with hover effects
 
-Clean and modern UI layout
+Component-based architecture
+
+Consistent layout structure
 
 📁 Folder Structure
 src/
 │
 ├── components/
 │   ├── Navbar.jsx
+│   ├── Footer.jsx
 │   ├── HeroSection.jsx
-│   ├── CardComponent.jsx
-│   └── Footer.jsx
+│   └── CardComponent.jsx
 │
 ├── pages/
-│   └── Home.jsx
+│   ├── Home.jsx
+│   └── Departments.jsx
 │
 ├── App.jsx
-├── App.css
-├── index.jsx
+├── main.jsx
 └── index.css
 
-⚙️ Setup & Installation
+⚙️ Installation & Setup
 
 Clone the repository:
 
 git clone <repository-url>
 
 
-Navigate to the project directory:
+Navigate into the project folder:
 
-cd 7a_23BAI70429_surya_exp_2
+cd full_stack_exp_2
 
 
 Install dependencies:
@@ -84,51 +101,52 @@ Install dependencies:
 npm install
 
 
-Start the development server:
+Start development server:
 
-npm start
+npm run dev
 
-🚀 Deployment
+🔄 React Router Implementation
 
-The project is deployed using Vercel.
+BrowserRouter is used in main.jsx
 
-Deployment Link Format:
-{uid}-exp2-college.vercel.app
+Routes and Route components are used in App.jsx
+
+Navigation is implemented using Link from react-router-dom
+
+No page reload occurs during navigation
+
+🌐 Deployment
+
+Deployment is done using Vercel.
+
+Deployment Format:
+{uid}-exp3-college.vercel.app
 
 
 Example:
 
-23BAI70429-exp2-college.vercel.app
+23BAI70429-exp3-college.vercel.app
 
 📚 Learning Outcomes
 
-Understanding component-based UI development in React
+Understanding Single Page Applications (SPA)
 
-Implementing reusable React components
+Implementing routing in React
 
-Structuring React projects efficiently
+Creating multi-page navigation
 
-Applying modern UI/UX principles
+Maintaining UI consistency across pages
 
-Using Bootstrap for responsive design
+Structuring scalable React projects
 
-🎤 Viva Highlights
-
-Built using Create React App, where index.jsx is the entry point
-
-Bootstrap used for layout and responsiveness
-
-Custom CSS used for animations and color themes
-
-Components reused for scalability and maintainability
 
 👤 Author
 
 Name: Surya
 UID: 23BAI70429
 Course: B.Tech CSE (AIML)
-Experiment: 2
+Experiment: 3
 
 ✅ Conclusion
 
-This experiment successfully demonstrates the design and implementation of a modern, colorful, and innovative College Management System UI using React and Bootstrap, following best practices in component-based development and responsive web design.
+Experiment–3 successfully extends the College Management System by introducing multi-page navigation using React Router. The project demonstrates proper folder structuring, reusable components, consistent UI design, and smooth client-side routing in a modern React application.
